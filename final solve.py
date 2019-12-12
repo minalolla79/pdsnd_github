@@ -1,3 +1,6 @@
+# this is my python project
+#Udacity 2nd project
+
 import time
 import pandas as pd
 import numpy as np
@@ -49,6 +52,7 @@ def get_filters():
     return city, month, day
 
 
+#Add exception to trip duration stats
 
 def load_data(city, month, day):
     df = pd.read_csv(CITY_DATA[city])
